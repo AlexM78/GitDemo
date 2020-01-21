@@ -1,0 +1,22 @@
+/*2 dimensional array. An array containing other arrays. Still separate by commas
+The contained arrays can have many items each
+var playList = [
+  ['I Did It My Way', 'Frank Sinatra'], //first array 0 - 0 and 1
+  ['Respect', 'Aretha'], // second array 1 - 0 and 1
+  ['Imagine', 'John Lennon'] //third array 2 - 0 and 1
+];
+
+function print(message) {
+  document.write(message);
+}
+
+function printSongs( songs ) {
+  var listHTML = '<ol>';
+  for ( var i = 0; i < songs.length; i += 1) {
+    listHTML += '<li>' + songs[i][0] + ' by ' + songs[i][1] + '</li>'; //song in index 0. artist in index 1 for each array
+  }
+  listHTML += '</ol>';
+  print(listHTML);
+}
+
+printSongs(playList);

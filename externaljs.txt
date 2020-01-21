@@ -1,0 +1,6 @@
+<script src='js/helpers.js'></script>
+<script src='js/playlist.js'></script>  
+</body>
+
+External JS files. Put them right before the closing body so that the javascript loads after the page loads.
+The second file uses the first file, so make sure to add the file 2nd. You can call functions in another js file if they are in the same folder. This allows you to create your own js files that uses reusable script from others.
