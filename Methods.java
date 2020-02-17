@@ -7,6 +7,7 @@ public class Methods {
 	//int means an integer is being returned
 public String ValidateHeader() {
 System.out.println("Header links validated");
+System.out.println("This is a test");
 return "Pass"; // The return value must match the return type at the header of the method. In this case, String
 }
 

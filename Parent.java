@@ -8,5 +8,6 @@ public class Parent {
     System.out.println("Navigated to home page");
     Methods m = new Methods(); //Create new object from the Methods class to use its methods
     System.out.println(m.ValidateHeader()); //Now use the method from the other class file
+    System.out.println("New stuff");
     }
 }
